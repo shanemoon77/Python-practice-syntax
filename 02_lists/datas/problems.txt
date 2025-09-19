@@ -1,0 +1,51 @@
+01. Even Squares with List Comprehension
+→ Generate the squares of even numbers from 1 to 20 using a single-line list comprehension.
+
+02. Multi-key Sorting (Length + Alphabetical)
+→ Sort a list of words first by length (ascending), then alphabetically when lengths are equal.
+
+03 Shallow Copy vs. Reference Sharing
+→ Demonstrate the difference between shallow copy (e.g., list[:]) and reference assignment, especially in nested lists.
+
+04. Word Frequency Counter (Dictionary)
+→ Count the frequency of each word in a sentence, ignoring case and punctuation. Use a dictionary to store results.
+
+05. Top-N Words by Frequency
+→ From the frequency dictionary, return the top 3 most common words.
+→ Sort by frequency (descending), breaking ties alphabetically.
+
+05. Flatten a Nested List
+→ Convert a 2D list into a single flat list using a list comprehension.
+
+07. Sliding Window Sum
+→ Given a list and a window size k, compute the sums of all consecutive subarrays of length k.
+   Example: [1,2,3,4], k=3 → [6,9].
+
+08. Multi-key Sorting (Name + Score)
+→ Sort a list of (name, score) pairs by name (ascending) and score (descending).
+
+09. Rotate a Matrix (90° Clockwise)
+→ Implement a function to rotate a square matrix 90 degrees clockwise.
+
+10. Merge Overlapping Intervals
+→ Given a list of intervals, merge all overlapping intervals into a simplified list.
+
+11. Two-Sum Problem (O(n) Solution)
+→ Given a list of integers and a target, find two indices whose values sum to the target.
+→ Implement an O(n) solution using a dictionary for lookup.
+
+12. Grouping by Key (e.g., Grade → Students)
+→ Group items into a dictionary based on their keys.  
+   Example: group student names by their grade label.
+
+13. Scoreboard Renderer (Formatted Table)
+→ Render a formatted scoreboard of names and scores:
+   * Title centered
+   * Name left-aligned, score right-aligned
+   * Show total and average (average to 2 decimal places)
+
+14. Mini Log Analyzer (Frequency & Filtering)
+→ Parse a log file with the format: [YYYY-MM-DD HH:MM:SS] LEVEL message
+   * Count the frequency of each LEVEL
+   * Group logs by hour
+   * Extract and display the most recent ERROR logs
