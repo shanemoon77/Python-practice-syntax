@@ -1,4 +1,63 @@
-# Python Practice
-This repository is a record of my Python syntax practice
-- [01_strings](01_strings/)
-- [02_lists](02_lists/)
+# IF Statement Practice Summary
+
+This repository contains notes and practice problems focused on Python conditional statements (`if`, `elif`, `else`), logical operators, and nested decision-making.
+
+---
+
+## 1. Conditional Basics
+
+- Simple `if` / `elif` / `else` usage.
+- Combining conditions with `and`, `or`, `not`.
+- Truthy and falsy values in Python.
+
+---
+
+## 2. Nested Conditions
+
+- Using multiple `if` levels to handle complex decisions.
+- Avoiding deeply nested logic by returning early.
+- The importance of order in chained conditions.
+
+---
+
+## 3. Logical Expressions
+
+- Comparison operators (`==`, `!=`, `<`, `<=`, `>`, `>=`).
+- Membership and identity operators (`in`, `not in`, `is`).
+- Conditional expressions (`a if cond else b`).
+
+---
+
+## Practice Problems
+
+1. [01. discount_engine(price, is_vip, event_day)](01_discount_engine.py)  
+   Apply sequential discounts for VIP and event day.
+
+2. [02. grade_with_plus_minus(score)](02_grade_with_plus_minus.py)  
+   Return letter grade with +/−.
+
+3. [03. validate_date_simple(date_str)](03_validate_date_simple.py)  
+   Validate a date in `YYYY-MM-DD` format.
+
+4. [04. bmi_category(weight, height)](04_bmi_category.py)  
+   Determine BMI and return category.
+
+5. [05. train_crowd(level, time)](05_train_crowd.py)  
+   Estimate subway crowd level.
+
+6. [06. validate_password(password)](06_validate_password.py)  
+   Check password strength (Strong / Moderate / Weak).
+
+7. [07. traffic_light(color, is_emergency)](07_traffic_light.py)  
+   Simulate traffic light with emergency override.
+
+---
+
+## Study Focus
+
+- Practicing branching logic in real-world scenarios.
+- Emphasizing clean and concise Python conditionals.
+
+---
+
+Detailed problem descriptions are provided in the **datas** directory.
