@@ -30,4 +30,4 @@ Simulate traffic light with emergency override.
 Study Focus
 Practicing branching logic in real-world scenarios.
 Emphasizing clean and concise Python conditionals.
-Detailed problem descriptions are provided in the data directory.
+Detailed problem descriptions are provided in the datas directory.
