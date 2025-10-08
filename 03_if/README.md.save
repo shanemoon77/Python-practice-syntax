@@ -1,0 +1,129 @@
+IF Statement Practice Summary
+This repository contains notes and practice problems focused on Python conditional statements (if, elif, else), logical operators, and nested decision-making.
+1. Conditional Basics
+Simple if / elif / else usage.
+Combining conditions with and, or, not.
+Truthy and falsy values in Python.
+2. Nested Conditions
+Using multiple if levels to handle complex decisions.
+Avoiding deeply nested logic by returning early.
+The importance of order in chained conditions.
+3. Logical Expressions
+Comparison operators (==, !=, <, <=, >, >=).
+Membership and identity operators (in, not in, is).
+Conditional expressions (a if cond else b).
+4. Real-World Practice Problems
+Below are the 7 applied problems designed to reinforce if logic with realistic scenarios.
+🧩 Practice Problems
+01. discount_engine(price, is_vip, event_day)
+Calculates the final price after applying discounts.
+VIP customers get a 10% discount.
+On event days, everyone gets an additional 20% discount.
+Discounts are applied sequentially (10% first, then 20%).
+The final price cannot go below 0.
+02. grade_with_plus_minus(score)
+Returns a letter grade with a plus or minus based on the score.
+97–100 → A+
+93–96 → A
+90–92 → A−
+Continue similarly for B, C, and D grades.
+Below 60 → F
+03. validate_date_simple(date_str)
+Validates a date string formatted as 'YYYY-MM-DD'.
+Must contain valid numeric year, month, and day.
+Month range: 1–12.
+Day must not exceed the maximum for that month.
+February has 29 days in leap years.
+04. bmi_category(weight, height)
+Returns the BMI (Body Mass Index) category.
+Formula: BMI = weight / (height ** 2)
+BMI < 18.5 → Underweight
+18.5 ≤ BMI < 23 → Normal
+23 ≤ BMI < 25 → Overweight
+BMI ≥ 25 → Obese
+05. train_crowd(level, time)
+Estimates the crowd level of a subway train.
+Returns "Spacious", "Normal", "Crowded", or "Very Crowded".
+Uses both level and time to simulate realistic rush-hour conditions.
+06. validate_password(password)
+Checks the strength of a password.
+Minimum 8 characters.
+Includes lowercase, uppercase, numbers, and special characters.
+Common patterns (password, 1234, qwerty) are always Weak.
+Classification:
+All 4 types → Strong
+2–3 types → Moderate
+Fewer than 2 → Weak
+07. traffic_light(color, is_emergency)
+Simulates a traffic light system.
+If is_emergency=True, always return 'GO'.
+Otherwise:
+'red' → 'STOP'
+'yellow' → 'WAIT'
+'green' → 'GO'
+📘 Study Focus
+Clarity and correctness of branching logic.
+Practical real-world scenarios using conditional statements.
+Emphasis on clean and readable Python code.
+원하면 이 버전을 바로 README.md 파일로 만들어줄까?
+(터미널에서 touch README.md → 내용 자동 생성 형태로)
+나의 말:
+링크 만드는데 파일구조 안줘도되? 그냥 저거 복붙하면대?
+ChatGPT의 말:
+좋은 질문 👍
+그냥 복붙만 해도 돼.
+GitHub는 같은 폴더(즉, 같은 레포 루트)에 있는 파일일 경우,
+[text](filename.py) 형식만 써도 자동으로 인식해서 링크 걸어줘.
+
+✅ 예를 들어
+폴더 구조가 이렇게라면 👇
+/if_practice_repo/
+├── README.md
+├── 01_discount_engine.py
+├── 02_grade_with_plus_minus.py
+├── 03_validate_date_simple.py
+├── 04_bmi_category.py
+├── 05_train_crowd.py
+├── 06_validate_password.py
+└── 07_traffic_light.py
+README에 이렇게만 써도 ⬇️
+[01. discount_engine(price, is_vip, event_day)](01_discount_engine.py)
+GitHub에서 클릭하면 자동으로
+➡️ 01_discount_engine.py 파일 내용 페이지로 이동함.
+❗ 만약 하위폴더에 있다면?
+예를 들어 problems/01_discount_engine.py 이런 구조라면
+[01. discount_engine](problems/01_discount_engine.py)
+이렇게 상대경로(폴더명/파일명)만 추가하면 돼.
+👉 정리하자면:
+같은 폴더면 그냥 [링크명](파일명) ✅
+하위 폴더면 [링크명](폴더명/파일명) ✅
+절대경로는 필요 없음 ❌
+즉, 네가 지금처럼
+README.md랑 .py 파일들이 같은 폴더에 있으면
+그냥 내가 위에 정리해준 거 그대로 복붙만 하면 완벽하게 작동한다 💯
+나의 말:
+이제 터미널에서 릿미 작성하는거
+ChatGPT의 말:
+좋아 👍 깃허브용 README.md를 터미널에서 바로 만드는 법,
+명령어 중심으로 단계별로 정리해줄게.
+✅ 1️⃣ 파일 만들기
+touch README.md
+👉 새 README.md 파일 생성 (이미 있으면 그냥 덮어쓰기 없이 그대로 유지됨)
+✅ 2️⃣ 파일 열기 (편집)
+nano 사용 (가장 간단한 방법)
+nano README.md
+이러면 터미널에 편집 화면이 뜸.
+그 안에 복붙 ↓
+(너가 아까 만든 그 Markdown 내용 그대로 넣으면 됨.)
+✅ 3️⃣ 저장하고 나가기 (nano 기준)
+Ctrl + O → 저장 (Write Out)
+Enter → 파일명 확인
+Ctrl + X → 종료
+✅ 4️⃣ 내용 확인
+cat README.md
+➡️ 터미널에서 내용이 잘 들어갔는지 한눈에 확인
+✅ 5️⃣ 깃에 추가 & 커밋 & 푸시 (GitHub 업로드까지)
+git add README.md
+git commit -m "Add README with problem descriptions and links"
+git push origin main
+(혹시 브랜치명이 main이 아니라면 main 대신 
