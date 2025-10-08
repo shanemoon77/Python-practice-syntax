@@ -1,0 +1,55 @@
+1) discount_engine(price, is_vip, event_day)
+Implement a function that calculates the final price after applying discounts.
+- VIP customers get a 10% discount.
+- On event days, everyone gets an additional 20% discount.
+- Discounts are applied sequentially (i.e., 10% first, then 20%).
+- The final price cannot go below 0.
+
+2) grade_with_plus_minus(score)
+Write a function that returns a letter grade with a plus or minus based on the score.
+- 97–100 → A+
+- 93–96 → A
+- 90–92 → A−
+- 87–89 → B+
+- 83–86 → B
+- 80–82 → B−
+- Continue the same pattern for C and D.
+- Below 60 → F
+
+3) validate_date_simple(date_str)
+Create a function that validates a date string in the format 'YYYY-MM-DD'.
+- The year, month, and day must be numeric.
+- The month must be between 1 and 12.
+- The day must not exceed the maximum number of days for that month.
+- February should have 29 days in leap years, otherwise 28.
+
+4) bmi_category(weight, height)
+Implement a function that returns the BMI (Body Mass Index) category.
+- Use the formula: BMI = weight / (height ** 2)
+- BMI < 18.5 → Underweight
+- 18.5 ≤ BMI < 23 → Normal
+- 23 ≤ BMI < 25 → Overweight
+- BMI ≥ 25 → Obese
+
+5) train_crowd(level, time)
+Write a function that estimates the train crowd level based on the given congestion level and time.
+- Return one of the following strings: "Spacious", "Normal", "Crowded", "Very Crowded".
+- The function may combine both parameters to simulate realistic conditions.
+
+6) validate_password(password)
+Implement a password strength checker that classifies a password as 'Strong', 'Moderate', or 'Weak'.
+- Must be at least 8 characters long.
+- Should include lowercase, uppercase, numbers, and special characters.
+- Common patterns like 'password', '1234', 'qwerty' are always 'Weak'.
+- Strength levels:
+  - All 4 types → 'Strong'
+  - 2–3 types → 'Moderate'
+  - Fewer than 2 → 'Weak'
+
+7) traffic_light(color, is_emergency)
+Simulate a traffic light control system.
+- If it’s an emergency (is_emergency=True), always return 'GO'.
+- Otherwise:
+  - 'red' → 'STOP'
+  - 'yellow' → 'WAIT'
+  - 'green' → 'GO'
