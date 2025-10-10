@@ -30,25 +30,25 @@ This repository contains notes and practice problems focused on Python condition
 
 ## Practice Problems
 
-- [01. discount_engine(price, is_vip, event_day)](01_discount_engine.py)  
+- [01. discount_engine(price, is_vip, event_day)](solutions/01_discount_engine.py)  
   Apply sequential discounts for VIP and event day.
 
-- [02. grade_with_plus_minus(score)](02_grade_with_plus_minus.py)  
+- [02. grade_with_plus_minus(score)](solutions/02_grade_with_plus_minus.py)  
   Return letter grade with +/−.
 
-- [03. validate_date_simple(date_str)](03_validate_date_simple.py)  
+- [03. validate_date_simple(date_str)](solutions/03_validate_date_simple.py)  
   Validate a date in `YYYY-MM-DD` format.
 
-- [04. bmi_category(weight, height)](04_bmi_category.py)  
+- [04. bmi_category(weight, height)](solutions/04_bmi_category.py)  
   Determine BMI and return category.
 
-- [05. train_crowd(level, time)](05_train_crowd.py)  
+- [05. train_crowd(level, time)](solutions/05_train_crowd.py)  
   Estimate subway crowd level.
 
-- [06. validate_password(password)](06_validate_password.py)  
+- [06. validate_password(password)](solutions/06_validate_password.py)  
   Check password strength (Strong / Moderate / Weak).
 
-- [07. traffic_light(color, is_emergency)](07_traffic_light.py)  
+- [07. traffic_light(color, is_emergency)](solutions/07_traffic_light.py)  
   Simulate traffic light with emergency override.
 
 ---
