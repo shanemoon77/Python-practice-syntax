@@ -22,7 +22,6 @@ Conditional statements (`if`, `elif`, `else`), logical operators, and nested dec
 ### 04_dictionary
 Dictionaries are key-value data structures used for fast data lookup, storage, and mapping relationships
 → [Go to folder](04_dictionary)
-
 ---
 
 ## Study Purpose
