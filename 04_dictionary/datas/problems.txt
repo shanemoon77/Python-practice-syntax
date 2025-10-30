@@ -1,0 +1,82 @@
+1. Filter Favorite Languages
+ 
+Description
+Given a dictionary where each key is a person and the value is their favorite programming language,
+write a function that returns a list of people whose favorite language is "python".
+The returned names should have their first letter capitalized.
+  Example Input
+favorite_languages = {
+    'jen': 'python',
+    'sarah': 'c',
+    'edward': 'rust',
+    'phil': 'python',
+}
+print(filter_python_users(favorite_languages))
+
+2. Average Score Calculator
+
+Given a nested dictionary containing classes and student scores,
+write a function that calculates the overall average score.
+ Example Input
+scores = {
+    'class1': {'kim': 90, 'lee': 80, 'park': 70},
+    'class2': {'choi': 88, 'jung': 77, 'yoon': 99},
+}
+print(calc_average(scores))
+
+3. Pizza Order Formatter
+
+Description
+Given a dictionary representing a pizza order,
+return a natural-language sentence describing the pizza order.
+ Example Input
+pizza = {
+    'crust': 'thin',
+    'toppings': ['pepperoni', 'mushrooms', 'extra cheese']
+}
+print(describe_pizza(pizza))
+
+4. Reverse Dictionary
+
+Description
+Write a function that reverses the keys and values of a given dictionary.
+If duplicate values exist, the last one overwrites the previous ones.
+ Example Input
+fruit_colors = {
+    'apple': 'red',
+    'banana': 'yellow',
+    'grape': 'purple'
+}
+print(reverse_dict(fruit_colors))
+
+5. Friend Recommendation System
+
+Description
+You are given a social network represented as a dictionary where each key is a person
+and each value is a set of their friends.
+Return people who are friends of those who have the given user as a friend,
+but are not already the user’s friends.
+
+Example Input
+friends = {
+    'alice': {'bob', 'claire', 'dan'},
+    'bob': {'alice', 'emily', 'frank'},
+    'claire': {'alice', 'george'}
+}
+
+print(recommend_friends('alice', friends))
+
+6. Recursive Data Explorer
+
+Description
+Given a nested data structure that may contain dictionaries and lists,
+write a recursive function that extracts all string values and returns them in a list.
+ Example Input
+data = {
+    'user': {
+        'info': {'name': 'Alice', 'age': 25},
+        'hobbies': ['reading', 'gaming']
+    },
+    'meta': {'active': True, 'score': 98}
+}
+print(extract_strings(data))
