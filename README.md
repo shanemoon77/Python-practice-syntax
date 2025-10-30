@@ -19,6 +19,10 @@ Working with lists, tuples, and iteration patterns.
 Conditional statements (`if`, `elif`, `else`), logical operators, and nested decision-making.  
 → [Go to folder](03_if)
 
+### 04_dictionary
+Dictionaries are key-value data structures used for fast data lookup, storage, and mapping relationships
+→ [Go to folder](04_dictionary)
+
 ---
 
 ## Study Purpose
